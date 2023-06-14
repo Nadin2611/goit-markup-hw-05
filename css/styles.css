@@ -34,6 +34,15 @@ h6 {
   margin: 0 auto;
 }
 
+input {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
 /*--------------------------HEADER------------------------*/
 
 .section {
@@ -464,6 +473,7 @@ img {
 }
 
 .footer-social-container {
+  margin-right: 80px;
 }
 .footer-social-title {
   font-weight: 500;
@@ -503,6 +513,60 @@ img {
 .footer-social-link:focus {
   background-color: var(--green);
   border-radius: 50%;
+}
+
+.email-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+
+.email-form {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+  max-width: 453px;
+  align-self: center;
+}
+
+.email-input {
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: var(--dark-color);
+  color: var(--white-background);
+  border: 1px solid var(--white-background);
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding: 8px 212px 8px 16px;
+}
+
+.email-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  background: var(--primary-brand-color);
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+  min-width: 165 px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.email-icon {
+  fill: var(--white-background);
+  margin-left: 16px;
 }
 
 /*===================================PORTFOLIO======================================*/
@@ -686,4 +750,94 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.modal-form-container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.modal-form-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+  margin-top: 72px;
+  margin-bottom: 16px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 8px;
+}
+
+.modal-form-label {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-label-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+
+.modal-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+.modal-icon {
+  fill: var(--dark-color);
+}
+textarea {
+  min-width: 360px;
+  min-height: 120px;
+}
+
+.modal-checkbox {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+}
+
+.modal-accept-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+
+.modal-accept-link {
+  text-decoration-line: underline;
+  color: var(--primary-brand-color);
+}
+
+.modal-form-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  background: var(--primary-brand-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32 px;
+  width: 169px;
+  height: 56px;
+  margin-top: 24px;
 }
