@@ -842,7 +842,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--light-slate);
   margin-left: 8px;
-  /* display: flex; */
+  display: flex;
   align-items: center;
 }
 
@@ -852,6 +852,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
+  align-items: center;
   justify-content: center;
   fill: transparent;
   display: inline-flex;
